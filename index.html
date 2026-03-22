@@ -2,24 +2,112 @@
 <html>
 <head>
   <title>CartControl</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 1.2em;
+      color: #666;
+      margin-bottom: 40px;
+    }
+    h3 {
+      color: #007bff;
+      font-size: 1.5em;
+      margin-top: 30px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background: #f8f9fa;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 5px;
+      border-left: 5px solid #007bff;
+    }
+    .pricing {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #28a745;
+      margin: 30px 0;
+    }
+    .coming-soon {
+      text-align: center;
+      font-size: 1.2em;
+      color: #ff6b6b;
+      margin: 30px 0;
+    }
+    .sneak-peek {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .sneak-peek img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #343a40;
+      color: #fff;
+      margin-top: auto;
+    }
+  </style>
 </head>
 <body>
-  <h1>CartControl</h1>
-  <p>Stay within your budget while shopping online.</p>
+  <div class="container">
+    <h1>CartControl</h1>
+    <p class="subtitle">Stay within your budget while shopping online.</p>
 
-  <h3>What it does:</h3>
-  <ul>
-    <li>Tracks your past spending</li>
-    <li>Detects your cart total</li>
-    <li>Warns before you overspend</li>
-  </ul>
+    <h3>What it does:</h3>
+    <ul>
+      <li>Tracks your past spending</li>
+      <li>Detects your cart total</li>
+      <li>Warns before you overspend</li>
+    </ul>
 
-  <p>$5/month</p>
+    <p class="pricing">$5/month</p>
 
-  <p>Coming soon</p>
+    <p class="coming-soon">Coming soon</p>
+
+    <div class="sneak-peek">
+      <h2>Sneak Peek</h2>
+      <img src="image.png" alt="CartControl Sneak Peek">
+    </div>
+  </div>
 
   <footer>
-    CartControl is a product of Naveira Labs LLC
+    CartControl is a product of Naveira Labs LLC. All rights reserved. This content may not be copied or distributed without permission.
   </footer>
 </body>
 </html>
